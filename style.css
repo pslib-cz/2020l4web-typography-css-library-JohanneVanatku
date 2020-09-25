@@ -3,8 +3,22 @@ body{
 }
 figure{
     margin: 0;
+    position: relative;
 }
 img{
     width: 100%;
     height: auto;
+}
+.capOnHover{
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    display: block;
+    position: absolute;
+    top: 0;
+    color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+figure:hover .capOnHover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)) ;
+    color: white;
 }
