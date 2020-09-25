@@ -8,3 +8,13 @@
     font-weight: 300;
     font-family: Source Sans Pro light;
 }
+@font-face{
+    src: url(./fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+    font-family: Poppins big;
+}
+@font-face{
+    src: url(./fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-family: Poppins med;
+}

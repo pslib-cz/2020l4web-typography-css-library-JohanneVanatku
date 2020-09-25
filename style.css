@@ -3,6 +3,9 @@ body{
     font-family: Source Sans Pro;
     font-weight: 400;
 }
+p{
+    padding: 0.2rem;
+}
 figure{
     margin: 0;
     position: relative;
@@ -19,10 +22,20 @@ img{
     top: 0;
     color: rgba(0, 0, 0, 0);
     width: 100%;
+    font-family: Source Sans Pro light;
+    font-weight: 300;
+    font-size: 1.5em;
 }
 figure:hover .capOnHover{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)) ;
     color: white;
+}
+.capDefault{
+    font-family: Source Sans Pro light;
+    font-weight: 300;
+    font-size: 1em;
+    padding-left: 0.5em;
+    color: rgba(50, 50, 50, 1);
 }
 a{
     text-decoration: none;
@@ -41,4 +54,16 @@ a:hover{
     display: block;
     margin-top: 1em;
     margin-bottom: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h1{
+    text-align: center;
+    font-family: Poppins big;
+    font-weight: 700;
+}
+h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: Poppins med;
+    font-weight: 500;
 }
