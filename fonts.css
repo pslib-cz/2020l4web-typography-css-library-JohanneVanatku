@@ -1,0 +1,10 @@
+@font-face{
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+    font-weight: 400;
+    font-family: Source Sans Pro;
+}
+@font-face{
+    src: url(./fonts/SourceSansPro-Light.ttf);
+    font-weight: 300;
+    font-family: Source Sans Pro light;
+}
