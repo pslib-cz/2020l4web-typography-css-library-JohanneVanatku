@@ -9,6 +9,11 @@
     font-family: Source Sans Pro light;
 }
 @font-face{
+    src: url(./fonts/SourceSansPro-SemiBold.ttf);
+    font-weight: 600;
+    font-family: Source Sans Pro semibold;
+}
+@font-face{
     src: url(./fonts/Poppins-Bold.ttf);
     font-weight: 700;
     font-family: Poppins big;
