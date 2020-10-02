@@ -183,6 +183,33 @@ b{
     padding-top: .2em;
     padding-bottom: .2em;
     display: none;
+    border-top: white solid 2px;
+}
+.navActivator:hover{
+    color: white;
+    text-decoration: none;
+}
+body > footer{
+    border-top: 2px solid black;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+}
+.pageTitle{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    background-color: black;
+    color: white;
+    font-family: Poppins big;
+    font-weight: 700;
+    font-size: 1.5em;
 }
 @media only screen and (max-width: 750px){
     .floatLeft{
@@ -207,5 +234,10 @@ b{
     }
     nav ul:target{
         height: auto;
+    }
+    .footerContainer{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
     }
 }
