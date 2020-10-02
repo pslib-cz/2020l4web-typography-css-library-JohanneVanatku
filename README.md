@@ -6,12 +6,14 @@ Link to **[demo](http://www.github.io)** site for preview.
 This CSS library is intended as a stylesheet for webpages. It includes styling for different headers, lists, tables, images including float and full site width images and simple navigation.
 ## Implementation
 copy and paste following links in the head tag of your website:
-``` <link rel="stylesheet" href="./style.css">
+```html
+<link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="./fonts.css">
 ```
 ## Usage
 for a hidden menu in smaller resolutions, use this code in your html:
-``` <nav>
+```html
+    <nav>
             <ul id="nav">
                 <a href=""><li>nav</li></a>
                 <a href=""><li>nav</li></a>
