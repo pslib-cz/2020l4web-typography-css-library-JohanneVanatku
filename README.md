@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Johanne Vaňátků*
 ## Demo
-You can check the demo [here](JohanneVanatku.github.io)
+You can check the demo [here](https://johannevanatku.github.io/)
 ## Description
 This CSS library is intended as a stylesheet for webpages. It includes styling for different headers, lists, tables, images including float and full site width images and simple navigation.
 ## Implementation
