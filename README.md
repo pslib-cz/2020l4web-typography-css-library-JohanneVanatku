@@ -1,7 +1,5 @@
 # Typography CSS library
 **Author:** *Johanne Vaňátků*
-## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
 ## Description
 This CSS library is intended as a stylesheet for webpages. It includes styling for different headers, lists, tables, images including float and full site width images and simple navigation.
 ## Implementation
@@ -33,6 +31,4 @@ library uses these tags:
 * .tableCorner for a specific style of an empty corner between table headings
 * .pageTitle for the title of the page
 * .footerContainer for a specific style of the page footer
-## Components
-### First
-### Second
+
